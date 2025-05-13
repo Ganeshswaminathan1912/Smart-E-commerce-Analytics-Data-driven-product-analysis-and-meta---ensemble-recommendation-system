@@ -13,4 +13,4 @@ Download all the packages by running each cell from first, run all the cells til
 
 1. Develop a recommendation system using collaborative filtering (SVD and ALS) and stack it on XGBoost Ensemble learning (Meta Ensemble) to suggest products based on customer interactions within relevant categories – Meta ensemble recommendation system.
 2. Analyze price distribution trends across different categories to optimize discount strategies for maximizing sales – K means clustering tier based discount suggestion system.
-3. Predict future sales or demand for a product using available features using LSTM neural network.
+3. Predict future sales or demand for a product using available features using LSTM neural network, which didn't work because there was no time column provided with the dataset, when I tried to simulate the data as time series data by creating a time column, the LSTM did not capture upward or downward trend, it was a flat line.
